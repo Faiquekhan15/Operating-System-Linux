@@ -20,6 +20,6 @@ int main(int argc, char *argv[])  {
         ch = fgetc(fptr);
     	}
 	fclose(fptr);
-	printf("\nWord count is: %d",count);
+	printf("\nNumber count is: %d",count);
 	return 0;
 }

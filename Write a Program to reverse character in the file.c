@@ -6,14 +6,14 @@ using namespace std;
 
 void reverse(char *a, int b, int e)
 {
-   char ch;
+	char ch;
 	if (b >= e)
 	{
-      return;
+		return;
 	}
 	ch= *(a+b);
-   *(a+b) = *(a+e);
-   *(a+e)   = ch;
+	*(a+b) = *(a+e);
+	*(a+e)   = ch;
 	reverse(a, ++b, --e);
 }
 
